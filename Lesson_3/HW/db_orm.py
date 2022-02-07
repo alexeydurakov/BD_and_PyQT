@@ -4,7 +4,7 @@ from sqlalchemy.sql import func
 
 
 Base = declarative_base()
-engine = create_engine('sqlite:///messenger.db', echo=True)
+engine = create_engine('sqlite:///storage.db', echo=True)
 
 
 class User(Base):
