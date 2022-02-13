@@ -3,7 +3,7 @@ import unittest
 from sys import argv
 
 import server, client
-from Lesson_4.HW.resurses import config
+from Lesson_5.HW.resurses import config
 
 
 class TestSerever(unittest.TestCase):

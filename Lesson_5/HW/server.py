@@ -7,14 +7,14 @@ import logging
 import select
 import threading
 
-from Lesson_4.HW.resurses.config import ACTION, TIME, ACCOUNT_NAME, MESSAGE, SENDER, DESTINATION, MESSAGE_TEXT, \
+from Lesson_5.HW.resurses.config import ACTION, TIME, ACCOUNT_NAME, MESSAGE, SENDER, DESTINATION, MESSAGE_TEXT, \
     PRESENCE, USER, \
     ERROR, DEFAULT_PORT, MAX_CONNECTIONS, RESPONSE_200, RESPONSE_400, EXIT, GET_CONTACTS, RESPONSE_202, LIST_INFO, \
     ADD_CONTACT, REMOVE_CONTACT, USERS_REQUEST
 
-from Lesson_4.HW.log_decorator import log
-from Lesson_4.HW.resurses.service import get_message, send_message
-from Lesson_4.HW.server_db import ServerStorage
+from Lesson_5.HW.log_decorator import log
+from Lesson_5.HW.resurses.service import get_message, send_message
+from Lesson_5.HW.server_db import ServerStorage
 
 from descrpts import Port, Host
 from metaclasses import ServerMaker

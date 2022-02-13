@@ -3,10 +3,10 @@
 import json
 import sys
 
-from Lesson_4.HW.log_decorator import log
+from Lesson_5.HW.log_decorator import log
 
-from Lesson_4.HW.errors import IncorrectDataRecivedError, NonDictInputError
-from Lesson_4.HW.resurses.config import MAX_PACKAGE_LENGTH, ENCODING
+from Lesson_5.HW.errors import IncorrectDataRecivedError, NonDictInputError
+from Lesson_5.HW.resurses.config import MAX_PACKAGE_LENGTH, ENCODING
 
 sys.path.append('../')
 # Утилита приёма и декодирования сообщения
